@@ -604,5 +604,4 @@ PRODUCT_PACKAGES += \
     imssettings \
     qcrilhook \
     FXBrowser \
-    KernelAuditor \
-    MagiskManager
+    KernelAuditor
