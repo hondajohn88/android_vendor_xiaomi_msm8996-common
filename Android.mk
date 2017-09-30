@@ -260,15 +260,15 @@ LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := KernelAuditor
+LOCAL_MODULE := VanillaMusic
 LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/priv-app/KernelAuditor/KernelAuditor.apk
+LOCAL_SRC_FILES := proprietary/app/VanillaMusic/VanillaMusic.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
+LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 endif
