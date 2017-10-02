@@ -604,4 +604,4 @@ PRODUCT_PACKAGES += \
     imssettings \
     qcrilhook \
     FXBrowser \
-    CameraNX
+    VanillaMusic
